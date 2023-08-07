@@ -1,6 +1,7 @@
 package com.vmware.component;
 
 import com.vmware.base.Common;
+import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.By;
 
@@ -9,6 +10,7 @@ import org.openqa.selenium.By;
  */
 @Slf4j
 public class InputBox extends Common {
+    @Getter
     private final By by;
 
     public InputBox(By by) {

@@ -12,6 +12,7 @@ import org.junit.jupiter.api.Test;
 public class TestCase extends TestBase {
     private final SimplePage simplePage = new SimplePage();
 
+
     @Disabled
     @BeforeEach
     public void beforeMethod() {
@@ -26,6 +27,11 @@ public class TestCase extends TestBase {
     @Disabled
     @AfterEach
     public void afterMethod() {
+
+    }
+
+    @Override
+    public void setTestCaseInfo(String... params) {
 
     }
 }

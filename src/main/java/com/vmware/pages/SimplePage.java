@@ -1,7 +1,7 @@
 package com.vmware.pages;
 
 import com.vmware.component.InputBox;
-import com.vmware.data.XPath;
+import com.vmware.data.XPathMap;
 import lombok.extern.slf4j.Slf4j;
 
 /**
@@ -10,7 +10,7 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Slf4j
 public class SimplePage {
-    private final InputBox commitBox = new InputBox(XPath.commitBox);
+    private final InputBox commitBox = new InputBox(XPathMap.commitBox);
 
 
     public void toCommit(String message) {

@@ -18,6 +18,7 @@ public abstract class TestBase {
 
     }
 
+    public abstract void setTestCaseInfo(String... params);
 
     @AfterAll
     public static void afterClass() {

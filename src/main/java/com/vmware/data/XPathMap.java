@@ -2,7 +2,7 @@ package com.vmware.data;
 
 import org.openqa.selenium.By;
 
-public class XPath {
+public class XPathMap {
     public static By commitBox;
 
     public static void loadXPathInfo() {
