@@ -14,6 +14,7 @@ public abstract class TestBase {
     @BeforeAll
     public static void beforeClass() {
         //TODO 编写测试所有用例执行前的前置方法
+        Common.setDriver(WebDriverFactory.getWebDriver());
 
     }
 
